@@ -1,0 +1,35 @@
+{
+  "name": "htmlgener",
+  "version": "1.0.1",
+  "description": "A html code generator for generate html code with class",
+  "main": "htmlGenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node htmlgener.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Narcisse226/htGen"
+  },
+  "keywords": [
+    "html",
+    "generator",
+    "narcisse",
+    "kayiabou",
+    "ekosin",
+    "code"
+  ],
+  "author": "Narcisse Kayiabou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Narcisse226/htGen/issues"
+  },
+  "homepage": "https://github.com/Narcisse226/htGen#readme",
+  "devDependencies": {
+    "commander": "^12.0.0"
+  },
+  "bin": {
+    "gen": "./htmlgener.js"
+  }
+  
+}
